@@ -91,3 +91,13 @@
 .services-page .page-hero .eyebrow-line{width:196px}
 
 .services-page .section-cta .eyebrow-line{width:240px}
+
+/* Upwork profile references: descriptive text link, not logo artwork */
+.footer-profile{display:flex;align-items:center;gap:12px;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--muted);font-size:12px}
+.footer-profile-label{font-weight:600;letter-spacing:.04em}
+.footer-profile>a{font-weight:700;color:var(--text);transition:color .2s}
+.footer-profile>a:hover,.contact-upwork a:hover{color:var(--blue-bright)}
+.footer-profile>a span:first-child{color:#6FDA44}
+.footer-profile-note{color:var(--subtle)}
+.contact-upwork a{transition:color .2s}
+@media(max-width:680px){.footer-profile{align-items:flex-start;flex-direction:column;gap:4px;padding:14px 0}.footer-profile-label{font-size:11px}}
