@@ -69,3 +69,7 @@
 .ops-workflow svg circle,.ops-workflow svg path{fill:none;stroke:var(--blue-bright);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .crm-people svg circle,.ops-workflow svg circle{fill:var(--panel)}
 @media(max-width:680px){.crm-people svg{width:43px;height:33px}.ops-workflow svg{width:52px;height:34px}}
+
+/* Keep footer navigation together on wider screens */
+@media(min-width:681px){.footer-links{flex-wrap:nowrap;white-space:nowrap;gap:clamp(12px,1.4vw,20px)}}
+@media(max-width:680px){.footer-links{display:grid;grid-template-columns:1fr 1fr;white-space:normal}}
