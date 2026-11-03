@@ -8,3 +8,9 @@
 .hero-home .hero-orbit{border-color:rgba(255,255,255,.18)}
 .site-footer .footer-main>p{max-width:310px;line-height:1.7}
 @media(max-width:680px){.louisiana-mark{width:16px;height:22px;margin-right:8px}.hero-home{background-position:58% center}.hero-home:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,22,29,.88),rgba(17,22,29,.45));pointer-events:none}}
+
+/* Homepage local identity: Lake Charles I-210 sunset hero */
+.hero-home{background:#171b22}
+.hero-home::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(23,27,34,.98) 0%,rgba(23,27,34,.88) 34%,rgba(23,27,34,.38) 68%,rgba(23,27,34,.18) 100%),linear-gradient(0deg,rgba(23,27,34,.38),rgba(23,27,34,.08)),url("../images/i210-sunset.png");background-size:cover;background-position:center 54%;pointer-events:none}
+.hero-home .hero-grid,.hero-home .hero-orbit{display:none}
+@media(max-width:680px){.hero-home::before{background-position:58% center;background-image:linear-gradient(90deg,rgba(23,27,34,.91),rgba(23,27,34,.58)),linear-gradient(0deg,rgba(23,27,34,.48),rgba(23,27,34,.12)),url("../images/i210-sunset.png")}.hero-home{min-height:600px}}
