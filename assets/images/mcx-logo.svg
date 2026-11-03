@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" role="img" aria-labelledby="title desc">
+<title id="title">MCX Digital</title><desc id="desc">MCX Digital logo in white and electric blue.</desc>
+<g font-family="Arial, Helvetica, sans-serif" font-weight="800">
+<text x="8" y="91" font-size="104" letter-spacing="-9" fill="#f4f6f9">MC</text>
+<text x="170" y="91" font-size="104" letter-spacing="-9" fill="#368bff">X</text>
+</g>
+<path d="M172 27 C232 -8 337 -4 383 28 C406 45 405 65 378 82" fill="none" stroke="#1677ff" stroke-width="9" stroke-linecap="round"/>
+<path d="M95 119 H325" stroke="#368bff" stroke-width="2"/>
+<text x="210" y="143" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="12" fill="#f4f6f9">DIGITAL</text>
+</svg>
