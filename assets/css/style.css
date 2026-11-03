@@ -83,3 +83,7 @@
 
 /* Contact page accent rule: 600% of the original 28px width */
 .contact-page .page-hero .eyebrow-line{width:168px}
+
+
+/* Contact section accent line: 300% of the original 28px width */
+.contact-copy .eyebrow-line{width:84px}
