@@ -100,3 +100,5 @@
 .contact-upwork a{transition:color .2s}
 .contact-upwork a:hover{color:var(--blue-bright)}
 @media(max-width:680px){.profile-bar{min-height:30px}.profile-bar a{font-size:9px;gap:4px}}
+
+.privacy-page .page-hero .eyebrow-line{width:210px}
