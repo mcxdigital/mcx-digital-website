@@ -14,3 +14,23 @@
 .hero-home::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(23,27,34,.98) 0%,rgba(23,27,34,.88) 34%,rgba(23,27,34,.38) 68%,rgba(23,27,34,.18) 100%),linear-gradient(0deg,rgba(23,27,34,.38),rgba(23,27,34,.08)),url("../images/i210-sunset.png");background-size:cover;background-position:center 54%;pointer-events:none}
 .hero-home .hero-grid,.hero-home .hero-orbit{display:none}
 @media(max-width:680px){.hero-home::before{background-position:58% center;background-image:linear-gradient(90deg,rgba(23,27,34,.91),rgba(23,27,34,.58)),linear-gradient(0deg,rgba(23,27,34,.48),rgba(23,27,34,.12)),url("../images/i210-sunset.png")}.hero-home{min-height:600px}}
+
+
+/* Approved homepage refresh */
+.service-card{min-height:310px}
+.service-mark{position:relative;display:flex;align-items:center;height:72px;margin:4px 0 18px;color:var(--blue-bright);font-family:var(--font-display);font-size:48px;font-weight:800;letter-spacing:-.09em;line-height:1}
+.service-mark:after{content:"";position:absolute;left:0;bottom:0;width:48px;height:3px;background:var(--blue-bright);border-radius:2px}
+.service-mark-ops{letter-spacing:-.07em}
+.ops-connector{position:relative;display:inline-block;width:54px;height:25px;margin-left:15px;border-top:1px solid rgba(54,139,255,.8);border-bottom:1px solid rgba(54,139,255,.45);transform:skewX(-28deg)}
+.ops-connector:before,.ops-connector:after{content:"";position:absolute;top:7px;width:7px;height:7px;border:1px solid var(--blue-bright);border-radius:50%;background:var(--panel)}
+.ops-connector:before{left:8px}.ops-connector:after{right:8px}
+.service-mark-ai{letter-spacing:-.1em}
+.ai-spark{font-size:20px;letter-spacing:0;margin:0 0 25px 8px;color:#8bbaff}
+.service-card h3{max-width:90%}
+.feature-portrait{padding:0;min-height:390px;align-items:stretch;justify-content:stretch}
+.feature-portrait>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.portrait-caption{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px;background:linear-gradient(0deg,rgba(15,20,27,.96),rgba(15,20,27,.05));font-family:var(--font-display);font-size:11px;font-weight:700;letter-spacing:.16em}
+.portrait-caption span:last-child{color:var(--blue-bright);font-size:9px}
+.footer-louisiana{display:flex;align-items:center;gap:10px;color:#9ca7b4!important;font-family:var(--font-display);font-size:13px!important;font-weight:700;letter-spacing:.08em}
+.footer-louisiana img{width:20px;height:25px;object-fit:contain;opacity:.9}
+@media(max-width:680px){.service-card{min-height:250px}.feature-portrait{min-height:320px}.service-mark{height:62px;font-size:42px}.footer-louisiana{margin:0}}
