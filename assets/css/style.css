@@ -102,3 +102,9 @@
 @media(max-width:680px){.profile-bar{min-height:30px}.profile-bar a{font-size:9px;gap:4px}}
 
 .privacy-page .page-hero .eyebrow-line{width:210px}
+
+
+/* Packages page accent rules: 750%, 600%, and 450% of the original 28px width */
+.packages-page .page-hero .eyebrow-line{width:210px}
+.packages-page .section-heading .eyebrow-line{width:168px}
+.packages-page .section-cta .eyebrow-line{width:126px}
