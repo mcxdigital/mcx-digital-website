@@ -97,7 +97,7 @@
 .footer-profile-label{font-weight:600;letter-spacing:.04em}
 .footer-profile>a{font-weight:700;color:var(--text);transition:color .2s}
 .footer-profile>a:hover,.contact-upwork a:hover{color:var(--blue-bright)}
-.footer-profile>a span:first-child{color:#6FDA44}
+.upwork-word{color:#6FDA44!important}
 .footer-profile-note{color:var(--subtle)}
 .contact-upwork a{transition:color .2s}
 @media(max-width:680px){.footer-profile{align-items:flex-start;flex-direction:column;gap:4px;padding:14px 0}.footer-profile-label{font-size:11px}}
