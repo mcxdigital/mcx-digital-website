@@ -92,12 +92,11 @@
 
 .services-page .section-cta .eyebrow-line{width:240px}
 
-/* Upwork profile references: descriptive text link, not logo artwork */
-.footer-profile{display:flex;align-items:center;gap:12px;padding:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--muted);font-size:12px}
-.footer-profile-label{font-weight:600;letter-spacing:.04em}
-.footer-profile>a{font-weight:700;color:var(--text);transition:color .2s}
-.footer-profile>a:hover,.contact-upwork a:hover{color:var(--blue-bright)}
+.profile-bar{min-height:32px;background:#141a22;border-bottom:1px solid var(--line);display:flex;align-items:center}
+.profile-bar .container{display:flex;justify-content:flex-end;align-items:center}
+.profile-bar a{display:inline-flex;align-items:center;gap:5px;color:#9ca7b4;font-size:10px;font-weight:600;line-height:1.2;letter-spacing:.025em;transition:color .2s}
+.profile-bar a:hover{color:#fff}
 .upwork-word{color:#6FDA44!important}
-.footer-profile-note{color:var(--subtle)}
 .contact-upwork a{transition:color .2s}
-@media(max-width:680px){.footer-profile{align-items:flex-start;flex-direction:column;gap:4px;padding:14px 0}.footer-profile-label{font-size:11px}}
+.contact-upwork a:hover{color:var(--blue-bright)}
+@media(max-width:680px){.profile-bar{min-height:30px}.profile-bar a{font-size:9px;gap:4px}}
