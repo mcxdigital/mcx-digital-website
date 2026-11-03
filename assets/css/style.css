@@ -48,3 +48,10 @@
 .footer-bottom{align-items:center;}
 .footer-signoff{color:#9ca7b4;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;}
 @media(max-width:680px){.feature-portrait{max-width:260px;}.footer-bottom{gap:12px;flex-wrap:wrap;}}
+
+/* Simplified homepage section accents */
+.hero-accent{margin:0 0 0 2px;gap:0}
+.hero-accent .eyebrow-line{width:48px;height:3px}
+.section-accent{margin:0 0 22px;gap:0}
+.section-accent .eyebrow-line{width:76px;height:3px}
+.section-cta .section-accent{margin-bottom:22px}
