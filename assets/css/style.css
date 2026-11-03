@@ -38,3 +38,13 @@
 .service-tagline{color:#e5edf7!important;font-family:var(--font-display);font-size:13px!important;font-weight:700;line-height:1.55!important;margin:0 0 10px;max-width:95%}
 .service-card{min-height:350px}
 @media(max-width:680px){.service-card{min-height:280px}}
+
+
+/* Homepage refinement: portrait sizing and footer signoff */
+.feature-portrait{width:100%;max-width:320px;min-height:0;aspect-ratio:1/1;margin:0 auto;}
+.feature-portrait>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 25%;}
+.portrait-caption{display:none!important;}
+.footer-main .footer-louisiana{display:none!important;}
+.footer-bottom{align-items:center;}
+.footer-signoff{color:#9ca7b4;font-family:var(--font-display);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;}
+@media(max-width:680px){.feature-portrait{max-width:260px;}.footer-bottom{gap:12px;flex-wrap:wrap;}}
