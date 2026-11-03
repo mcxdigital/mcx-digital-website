@@ -79,3 +79,7 @@
 .feature-portrait>img{z-index:0;filter:saturate(.72) brightness(.78) contrast(.96);transition:filter .35s ease}
 .feature-portrait::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(135deg,rgba(15,22,31,.16),rgba(12,19,29,.42)),radial-gradient(ellipse at 78% 18%,rgba(22,119,255,.16),transparent 58%);}
 @media(prefers-reduced-motion:reduce){.feature-portrait>img{transition:none}}
+
+
+/* Contact page accent rule: 600% of the original 28px width */
+.contact-page .page-hero .eyebrow-line{width:168px}
