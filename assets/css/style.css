@@ -59,3 +59,13 @@
 .section-feature .section-accent .eyebrow-line{width:250px}
 .section-cta .section-accent .eyebrow-line{width:205px}
 .section-cta .section-accent{margin-bottom:22px}
+
+
+/* Service card identity icons */
+.crm-people,.ops-workflow{display:inline-flex;align-items:center;margin-left:14px;flex-shrink:0}
+.crm-people svg{width:48px;height:36px;overflow:visible}
+.ops-workflow svg{width:58px;height:38px;overflow:visible}
+.crm-people svg circle,.crm-people svg path,
+.ops-workflow svg circle,.ops-workflow svg path{fill:none;stroke:var(--blue-bright);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.crm-people svg circle,.ops-workflow svg circle{fill:var(--panel)}
+@media(max-width:680px){.crm-people svg{width:43px;height:33px}.ops-workflow svg{width:52px;height:34px}}
