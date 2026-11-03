@@ -6,7 +6,7 @@ Static, multi-page website for MCX Digital.
 - HTML
 - CSS
 - Vanilla JavaScript
-- Static hosting (planned: Cloudflare Pages)
+- Cloudflare Workers Static Assets
 
 ## Pages
 - `index.html` — homepage
@@ -27,4 +27,4 @@ Edit `assets/js/config.js` to add the customer portal destination, contact email
 - Fonts currently load from Google Fonts; system font fallbacks are included in the CSS.
 
 ## Deployment
-Connect this repository to Cloudflare Pages using the default branch. For a plain static HTML site, use the repository root as the build output directory and leave the build command empty.
+This repository is connected to a Cloudflare Worker using Workers Builds. A push to the connected production branch should trigger a deployment. The `wrangler.jsonc` file configures the Worker and static asset directory.
