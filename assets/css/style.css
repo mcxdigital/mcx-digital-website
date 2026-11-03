@@ -73,3 +73,9 @@
 /* Keep footer navigation together on wider screens */
 @media(min-width:681px){.footer-links{flex-wrap:nowrap;white-space:nowrap;gap:clamp(12px,1.4vw,20px)}}
 @media(max-width:680px){.footer-links{display:grid;grid-template-columns:1fr 1fr;white-space:normal}}
+
+/* Subtle cinematic treatment for the about portrait */
+.feature-portrait{isolation:isolate;background:#18212c;border-color:rgba(205,218,233,.18)}
+.feature-portrait>img{z-index:0;filter:saturate(.72) brightness(.78) contrast(.96);transition:filter .35s ease}
+.feature-portrait::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(135deg,rgba(15,22,31,.16),rgba(12,19,29,.42)),radial-gradient(ellipse at 78% 18%,rgba(22,119,255,.16),transparent 58%);}
+@media(prefers-reduced-motion:reduce){.feature-portrait>img{transition:none}}
