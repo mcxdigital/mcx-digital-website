@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 300" role="img" aria-labelledby="title">
+<title id="title">MCX emblem</title>
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1677ff"/><stop offset=".55" stop-color="#368bff"/><stop offset="1" stop-color="#48d8ff"/></linearGradient>
+ <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26374d"/><stop offset="1" stop-color="#101722"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b8c8da"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#7e91a8"/></linearGradient>
+</defs>
+<path d="M33 174 L51 80 L104 80 L143 119 L182 80 L211 80 L174 121 L128 166 L91 128 L82 174 Z" fill="url(#navy)" stroke="#c4d1df" stroke-width="1.4"/>
+<path d="M147 174 L204 80 L266 80 L211 132 L256 174 L207 174 L183 151 L169 174 Z" fill="url(#blue)" stroke="#d7e6f5" stroke-width="1.2"/>
+<path d="M139 74 C181 17 269 12 298 48 C318 73 292 105 262 125 C302 94 313 58 291 34 C253 -6 176 14 139 74 Z" fill="url(#blue)" stroke="#e3edf7" stroke-width="1.2"/>
+<path d="M55 224 C118 213 182 194 236 163" fill="none" stroke="url(#blue)" stroke-width="7" stroke-linecap="round"/>
+<path d="M143 76 C185 30 256 24 282 48" fill="none" stroke="url(#silver)" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
