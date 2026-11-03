@@ -51,7 +51,7 @@
 
 /* Simplified homepage section accents */
 .hero-accent{margin:0 0 0 2px;gap:0}
-.hero-accent .eyebrow-line{width:144px;height:3px}
+.hero-accent .eyebrow-line{width:288px;height:3px}
 .section-accent{margin:0 0 22px;gap:0}
 .section-accent .eyebrow-line{width:228px;height:3px}
 .section-cta .section-accent{margin-bottom:22px}
