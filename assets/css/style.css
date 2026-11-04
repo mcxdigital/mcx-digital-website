@@ -398,3 +398,7 @@
 .home-page .home-visual-caption{left:18px;right:18px;bottom:14px;justify-content:flex-start}
 .home-page .home-visual-caption span{display:inline-block;color:#fff;background:rgba(14,25,39,.94);border-left:3px solid #1677ff;padding:10px 13px;font-size:10px;font-weight:850;letter-spacing:.1em;line-height:1.4;box-shadow:0 5px 20px rgba(0,0,0,.28)}
 @media(max-width:600px){.home-page .home-visual-caption{left:10px;right:10px;bottom:9px}.home-page .home-visual-caption span{font-size:8px;padding:8px 9px;letter-spacing:.07em}}
+
+
+/* Explicitly beat the numbered-kicker first-child rule for the flagship badge. */
+.home-page .home-section-kicker > .home-flagship-tag:first-child{color:#fff;background:#1677ff;font-size:11px;font-weight:850;padding:8px 13px;letter-spacing:.14em;border-radius:3px;line-height:1.3;box-shadow:0 5px 18px rgba(22,119,255,.22)}
