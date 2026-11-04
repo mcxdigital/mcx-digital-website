@@ -185,3 +185,7 @@
 .packages-page .package-crm .button{margin-top:auto}
 @media(max-width:900px){.packages-page .package-crm{padding:25px}}
 @media(max-width:680px){.packages-page .package-crm{padding:24px}.packages-page .package-crm h3{font-size:29px}}
+
+
+/* Matching reference markers connect each package to its fine print. */
+.packages-page .fine-print-marker{display:inline-block;color:var(--blue-bright);font-family:var(--font-display);font-size:14px;font-weight:800;margin-right:6px;}
