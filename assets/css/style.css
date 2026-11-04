@@ -108,3 +108,24 @@
 .packages-page .page-hero .eyebrow-line{width:210px}
 .packages-page .section-heading .eyebrow-line{width:168px}
 .packages-page .section-cta .eyebrow-line{width:126px}
+
+
+/* Services page refresh: clean typography-led service list, no decorative Unicode icons */
+.services-page .services-overview .section-heading{margin-bottom:36px}
+.services-page .services-overview .section-heading .eyebrow{margin-bottom:20px}
+.services-page .service-list{border-top:1px solid var(--line)}
+.services-page .service-row{grid-template-columns:.72fr 1.28fr;gap:clamp(36px,7vw,96px);padding:52px 0}
+.services-page .service-row-meta{justify-content:flex-start;gap:14px;padding-top:7px;color:#8c9aaa;font-size:10px;line-height:1.6;letter-spacing:.16em}
+.services-page .service-index{display:block;color:var(--blue-bright);font-family:var(--font-display);font-size:34px;font-weight:800;letter-spacing:-.06em;line-height:1}
+.services-page .service-row-content h2{font-size:clamp(28px,3vw,36px);margin:0 0 16px}
+.services-page .service-row-content>p{max-width:680px;color:var(--muted);line-height:1.85}
+.services-page .service-row-content .feature-list{margin-top:22px}
+.services-page .service-row-content .feature-list li:before{content:"";display:inline-block;width:16px;height:2px;vertical-align:middle;background:var(--blue-bright);margin:0 12px 3px 0}
+.services-page .section-cta .eyebrow{margin-bottom:22px}
+@media(max-width:680px){
+ .services-page .services-overview .section-heading{gap:18px;margin-bottom:28px}
+ .services-page .service-row{grid-template-columns:1fr;gap:18px;padding:34px 0}
+ .services-page .service-row-meta{flex-direction:row;align-items:center;gap:14px;padding:0}
+ .services-page .service-index{font-size:27px;min-width:34px}
+ .services-page .service-row-content h2{font-size:29px}
+}
