@@ -384,3 +384,10 @@
  .home-page .home-service-card{transition:none}
  .home-page .home-service-card:hover{transform:none}
 }
+
+
+/* Homepage refinements: quieter section labels and a clear flagship marker. */
+.home-page .home-kicker>span{width:210px}
+.home-page .home-flagship-tag{display:inline-block;color:#fff;background:var(--blue);padding:5px 9px;border-radius:2px;font-size:9px;font-weight:800;letter-spacing:.13em;line-height:1.5}
+.home-page .home-section-kicker:has(.home-flagship-tag){margin-bottom:20px}
+.home-page .home-visual-caption{justify-content:flex-start}
