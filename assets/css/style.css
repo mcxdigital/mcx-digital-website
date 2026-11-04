@@ -236,16 +236,6 @@
 .services-page .mcx-mini-number{font-size:9px;font-weight:800;letter-spacing:.15em;color:var(--blue-bright)}
 .services-page .mcx-service-mini h3{font-size:21px;line-height:1.25;margin:13px 0 8px}
 .services-page .mcx-service-mini p{font-size:12px;line-height:1.8;color:var(--muted);margin:0;max-width:620px}
-.services-page .mcx-services-approach{padding-top:20px;background:#171b22}
-.services-page .mcx-approach-panel{padding:clamp(26px,4vw,48px);border:1px solid rgba(54,139,255,.28);background:radial-gradient(ellipse at 5% 0%,rgba(22,119,255,.12),transparent 45%),linear-gradient(135deg,#202a36,#1b222c)}
-.services-page .mcx-approach-intro{max-width:660px}
-.services-page .mcx-approach-intro .eyebrow{margin-bottom:15px}
-.services-page .mcx-approach-intro h2{font-size:clamp(30px,4vw,43px);margin:0 0 12px}
-.services-page .mcx-approach-intro>p{font-size:14px;color:#c2ccd8;margin:0}
-.services-page .mcx-approach-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin-top:34px;padding-top:25px;border-top:1px solid var(--line)}
-.services-page .mcx-approach-steps>div>span{font-family:var(--font-display);font-size:22px;font-weight:800;color:var(--blue-bright)}
-.services-page .mcx-approach-steps h3{font-size:16px;margin:8px 0 6px}
-.services-page .mcx-approach-steps p{font-size:11px;line-height:1.7;color:var(--muted);margin:0}
 .services-page .section-cta .eyebrow{margin-bottom:18px}
 @media(max-width:900px){
  .services-page .mcx-services-core{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -260,8 +250,6 @@
  .services-page .mcx-service-card{min-height:0;padding:25px 22px}
  .services-page .mcx-service-card h3{font-size:27px;margin-top:23px}
  .services-page .mcx-service-card ul{margin-bottom:20px}
- .services-page .mcx-approach-panel{padding:25px 22px}
- .services-page .mcx-approach-steps{grid-template-columns:1fr;gap:20px;margin-top:25px;padding-top:22px}
 }
 @media(prefers-reduced-motion:reduce){
  .services-page .mcx-service-card,.services-page .mcx-service-link span{transition:none}
