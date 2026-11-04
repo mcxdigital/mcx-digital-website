@@ -129,3 +129,10 @@
  .services-page .service-index{font-size:27px;min-width:34px}
  .services-page .service-row-content h2{font-size:29px}
 }
+
+
+/* Packages page: emphasize fixed-price value and AI-powered website offering */
+.packages-page .package-price span{font-size:25px;line-height:1.2;letter-spacing:-.035em;margin-top:9px}
+.packages-page .package-website .package-price span{font-size:44px;color:var(--blue-bright);font-weight:800;letter-spacing:-.055em}
+.packages-page .package-tag:empty{display:none}
+@media(max-width:680px){.packages-page .package-website .package-price span{font-size:40px}}
