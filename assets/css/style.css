@@ -407,3 +407,11 @@
 /* Homepage service tiles: keep the small decorative mark, remove numbered labels. */
 .home-page .home-service-top{justify-content:flex-end;min-height:22px}
 .home-page .home-service-top b{font-size:21px}
+
+
+/* Homepage service tiles: consistent, recognizable line illustrations. */
+.home-page .home-service-top{min-height:12px;justify-content:flex-end}
+.home-page .home-service-symbol{height:67px;margin:15px 0 13px;color:var(--blue-bright);display:flex;align-items:center}
+.home-page .home-service-symbol svg{display:block;width:64px;height:64px;overflow:visible}
+.home-page .home-symbol-flow{gap:0}
+.home-page .home-symbol-guidance{font-size:initial;letter-spacing:normal}
