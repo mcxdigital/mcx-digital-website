@@ -415,3 +415,10 @@
 .home-page .home-service-symbol svg{display:block;width:64px;height:64px;overflow:visible}
 .home-page .home-symbol-flow{gap:0}
 .home-page .home-symbol-guidance{font-size:initial;letter-spacing:normal}
+
+
+/* Contact form submission feedback */
+.contact-form .form-status{margin:14px 0 0;padding:12px 14px;border:1px solid rgba(54,139,255,.35);border-left:3px solid #368bff;border-radius:6px;background:rgba(54,139,255,.08);color:#e8eef7;font-size:.92rem;line-height:1.55}
+.contact-form .form-status.is-success{border-color:rgba(73,190,135,.45);border-left-color:#49be87;background:rgba(73,190,135,.08)}
+.contact-form .form-status.is-error{border-color:rgba(239,105,105,.45);border-left-color:#ef6969;background:rgba(239,105,105,.08)}
+.contact-form button:disabled{opacity:.7;cursor:wait}
