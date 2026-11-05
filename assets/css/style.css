@@ -423,5 +423,3 @@
 .contact-form .form-status.is-error{border-color:rgba(239,105,105,.45);border-left-color:#ef6969;background:rgba(239,105,105,.08)}
 .contact-form button:disabled{opacity:.7;cursor:wait}
 
-/* Header image logo */
-.brand-logo{display:block;width:auto;height:36px;max-width:210px;object-fit:contain}@media(max-width:680px){.brand-logo{height:32px;max-width:190px}}
