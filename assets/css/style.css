@@ -428,7 +428,7 @@
 /* Main-site wordmark: match the compact MCX DIGITAL treatment used on the CRM landing page */
 .brand-wordmark{display:inline-flex;align-items:baseline;gap:9px;font-size:29px;line-height:1;letter-spacing:-.06em;white-space:nowrap;color:#f4f6f9}
 .brand-wordmark .brand-mcx{font-weight:800;letter-spacing:-.06em;color:#f4f6f9}
-.brand-wordmark .brand-x{font-size:13px;font-weight:800;letter-spacing:.2em;color:#8bc4ff}
+.brand-wordmark .brand-x{font-size:15px;font-weight:800;letter-spacing:.2em;color:#8bc4ff}
 .footer-brand .brand-wordmark{font-size:22px;gap:8px}
-.footer-brand .brand-wordmark .brand-x{font-size:10px;letter-spacing:.18em}
-@media(max-width:680px){.brand-wordmark{font-size:25px;gap:8px}.brand-wordmark .brand-x{font-size:11px}.footer-brand .brand-wordmark{font-size:20px}}
+.footer-brand .brand-wordmark .brand-x{font-size:11px;letter-spacing:.18em}
+@media(max-width:680px){.brand-wordmark{font-size:25px;gap:8px}.brand-wordmark .brand-x{font-size:12px}.footer-brand .brand-wordmark{font-size:20px}}
