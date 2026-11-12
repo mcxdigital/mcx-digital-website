@@ -28,3 +28,8 @@
   background:linear-gradient(90deg,rgba(7,15,25,.94),rgba(7,15,25,.84) 52%,rgba(7,15,25,.9)),linear-gradient(0deg,rgba(7,15,25,.45),rgba(7,15,25,.45));
 }
 .pain-section>.crm-shell{position:relative;z-index:1}
+
+
+/* Louisiana Strong footer signoff and white Christian cross */
+.footer-inner .footer-signoff{display:inline-flex;align-items:center;gap:7px;color:#8296ac;font-size:10px;white-space:nowrap}
+.footer-inner .footer-cross{display:inline-block;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:1.45em;font-weight:400;line-height:.8;vertical-align:middle}
