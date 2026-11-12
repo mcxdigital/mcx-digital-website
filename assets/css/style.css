@@ -432,3 +432,8 @@
 .footer-brand .brand-wordmark{font-size:22px;gap:8px}
 .footer-brand .brand-wordmark .brand-x{font-size:11px;letter-spacing:.18em}
 @media(max-width:680px){.brand-wordmark{font-size:25px;gap:8px}.brand-wordmark .brand-x{font-size:12px}.footer-brand .brand-wordmark{font-size:20px}}
+
+
+/* Christian cross beside the Louisiana Strong footer signoff */
+.footer-signoff{display:inline-flex;align-items:center;gap:7px}
+.footer-cross{display:inline-block;color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:1.45em;font-weight:400;line-height:.8;vertical-align:middle}
